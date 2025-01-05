@@ -1,0 +1,29 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build
+dist
+dist-ssr
+
+# Environment
+.env*
+!.env.example
+
+# Editor
+.vscode/*
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System
+.DS_Store
+*.pem
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
