@@ -10,8 +10,8 @@ jobs:
     uses: ./.github/workflows/deploy.yml
     with:
       bucket: staging.lazysheet.com
+      environment: staging
     secrets:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       DISTRIBUTION_ID: ${{ secrets.STAGING_DISTRIBUTION_ID }}
-    environment: staging
